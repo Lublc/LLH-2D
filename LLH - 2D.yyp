@@ -19,12 +19,14 @@
   },
   "name":"LLH - 2D",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"PlayerTestObject","path":"objects/PlayerTestObject/PlayerTestObject.yy",},},
+    {"id":{"name":"GameTestRoom","path":"rooms/GameTestRoom/GameTestRoom.yy",},},
+    {"id":{"name":"PlayerTestSprite","path":"sprites/PlayerTestSprite/PlayerTestSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"GameTestRoom","path":"rooms/GameTestRoom/GameTestRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
