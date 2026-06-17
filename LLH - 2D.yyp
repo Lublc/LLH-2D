@@ -22,11 +22,13 @@
   "name":"LLH - 2D",
   "resources":[
     {"id":{"name":"BattleController","path":"objects/BattleController/BattleController.yy",},},
+    {"id":{"name":"EnemyChunkyTestObject","path":"objects/EnemyChunkyTestObject/EnemyChunkyTestObject.yy",},},
     {"id":{"name":"EnemyTestObject","path":"objects/EnemyTestObject/EnemyTestObject.yy",},},
     {"id":{"name":"PlayerTestObject","path":"objects/PlayerTestObject/PlayerTestObject.yy",},},
     {"id":{"name":"WallTest","path":"objects/WallTest/WallTest.yy",},},
     {"id":{"name":"BattleRoomTest","path":"rooms/BattleRoomTest/BattleRoomTest.yy",},},
     {"id":{"name":"GameTestRoom","path":"rooms/GameTestRoom/GameTestRoom.yy",},},
+    {"id":{"name":"EnemyChunkyTestSprite","path":"sprites/EnemyChunkyTestSprite/EnemyChunkyTestSprite.yy",},},
     {"id":{"name":"EnemyTestSprite","path":"sprites/EnemyTestSprite/EnemyTestSprite.yy",},},
     {"id":{"name":"PlayerTestSprite","path":"sprites/PlayerTestSprite/PlayerTestSprite.yy",},},
     {"id":{"name":"WallSprite","path":"sprites/WallSprite/WallSprite.yy",},},

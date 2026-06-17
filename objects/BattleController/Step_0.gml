@@ -13,7 +13,7 @@ if (battle_active)
                 {
                     enemy_hp = 0;
                     state = "won";
-                    display_message = "You slain the zombie! Press ENTER.";
+                    display_message = "The monster falls... Press ENTER.";
                 }
                 else
                 {
@@ -32,7 +32,7 @@ if (battle_active)
             if (wait_timer <= 0)
             {
                 state = "enemy_turn";
-                display_message = "Zombie getting ready to bite...";
+                display_message = "The monster gets ready to attack...";
                 wait_timer = 60;
             }
         }
@@ -57,11 +57,11 @@ if (battle_active)
                     }
 
                     state = "lost";
-                    display_message = "You got eaten by the zombie... Press ENTER.";
+                    display_message = "You fell... Press ENTER.";
                 }
                 else
                 {
-                    display_message = "Zombie used Bite!";
+                    display_message = "The monster slashed you!";
                     state = "enemy_attack_wait";
                     wait_timer = 60;
                 }
