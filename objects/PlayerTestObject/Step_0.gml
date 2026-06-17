@@ -14,7 +14,8 @@ if ((moving_w && moving_a) || (moving_w && moving_d) || (moving_s && moving_a) |
     if (moving_a && place_free(x - spd, y)) x -= spd;
     if (moving_d && place_free(x + spd, y)) x += spd;
 }
-
-
-
-
+// enemy chase
+if (x != xprevious || y != yprevious)
+{
+    array_push(move_history, [x, y]);
+}
