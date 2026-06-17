@@ -1,11 +1,12 @@
 if (keyboard_check(vk_shift)) {
-    if (keyboard_check(ord("W"))) y -= hspd;
-    if (keyboard_check(ord("S"))) y += hspd;
-    if (keyboard_check(ord("A"))) x -= hspd;
-    if (keyboard_check(ord("D"))) x += hspd;
+    if (keyboard_check(ord("W")) && place_free(x, y - spd)) y -= hspd;
+    if (keyboard_check(ord("S")) && place_free(x, y + spd)) y += hspd;
+    if (keyboard_check(ord("A")) && place_free(x - spd, y)) x -= hspd;
+    if (keyboard_check(ord("D")) && place_free(x + spd, y)) x += hspd;
 } else {
-    if (keyboard_check(ord("W"))) y -= spd;
-    if (keyboard_check(ord("S"))) y += spd;
-    if (keyboard_check(ord("A"))) x -= spd;
-    if (keyboard_check(ord("D"))) x += spd;
+    if (keyboard_check(ord("W")) && place_free(x, y - spd)) y -= spd;
+    if (keyboard_check(ord("S")) && place_free(x, y + spd)) y += spd;
+    if (keyboard_check(ord("A")) && place_free(x - spd, y)) x -= spd;
+    if (keyboard_check(ord("D")) && place_free(x + spd, y)) x += spd;
 }
+
