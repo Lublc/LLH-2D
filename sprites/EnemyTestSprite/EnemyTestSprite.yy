@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"PlayerTestSprite",
+  "%Name":"EnemyTestSprite",
   "bboxMode":0,
   "bbox_bottom":60,
-  "bbox_left":23,
-  "bbox_right":41,
-  "bbox_top":5,
+  "bbox_left":17,
+  "bbox_right":38,
+  "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"37c945f6-e595-4202-945b-aba710aa2d4d","name":"37c945f6-e595-4202-945b-aba710aa2d4d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fafe8322-ba0e-476d-908b-dd5f15c64f3b","name":"fafe8322-ba0e-476d-908b-dd5f15c64f3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b26d469a-0246-4ba3-b6de-3010aa8e9dee","blendMode":0,"displayName":"default","isLocked":false,"name":"b26d469a-0246-4ba3-b6de-3010aa8e9dee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3aed8f63-d159-424b-a5b3-32a3927f41c2","blendMode":0,"displayName":"default","isLocked":false,"name":"3aed8f63-d159-424b-a5b3-32a3927f41c2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"PlayerTestSprite",
+  "name":"EnemyTestSprite",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"PlayerTestSprite",
+    "%Name":"EnemyTestSprite",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"PlayerTestSprite",
+    "name":"EnemyTestSprite",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37c945f6-e595-4202-945b-aba710aa2d4d","path":"sprites/PlayerTestSprite/PlayerTestSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"39bfbf0a-45e0-4b32-a283-d047dcb469ae","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fafe8322-ba0e-476d-908b-dd5f15c64f3b","path":"sprites/EnemyTestSprite/EnemyTestSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9930eeb1-05cc-41ef-99c2-80f535e88b5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
