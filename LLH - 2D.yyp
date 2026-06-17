@@ -8,8 +8,10 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
-  "Folders":[],
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Battle","folderPath":"folders/Battle.yy","name":"Battle","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,9 +21,11 @@
   },
   "name":"LLH - 2D",
   "resources":[
+    {"id":{"name":"BattleController","path":"objects/BattleController/BattleController.yy",},},
     {"id":{"name":"EnemyTestObject","path":"objects/EnemyTestObject/EnemyTestObject.yy",},},
     {"id":{"name":"PlayerTestObject","path":"objects/PlayerTestObject/PlayerTestObject.yy",},},
     {"id":{"name":"WallTest","path":"objects/WallTest/WallTest.yy",},},
+    {"id":{"name":"BattleRoomTest","path":"rooms/BattleRoomTest/BattleRoomTest.yy",},},
     {"id":{"name":"GameTestRoom","path":"rooms/GameTestRoom/GameTestRoom.yy",},},
     {"id":{"name":"EnemyTestSprite","path":"sprites/EnemyTestSprite/EnemyTestSprite.yy",},},
     {"id":{"name":"PlayerTestSprite","path":"sprites/PlayerTestSprite/PlayerTestSprite.yy",},},
@@ -30,6 +34,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"BattleRoomTest","path":"rooms/BattleRoomTest/BattleRoomTest.yy",},},
     {"roomId":{"name":"GameTestRoom","path":"rooms/GameTestRoom/GameTestRoom.yy",},},
   ],
   "templateType":"game",
